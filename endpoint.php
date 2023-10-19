@@ -22,6 +22,7 @@ add_action( 'rest_api_init', function(){
 function custom_projects_search( $request ) {
 	
 	$options = array(
+		'numberposts' => 6,
 		'post_type' => 'project',
 	);
 	

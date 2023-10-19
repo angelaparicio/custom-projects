@@ -30,8 +30,6 @@ add_action('wp_enqueue_scripts', function(){
 	//Bootstrap
 	wp_enqueue_style( 'bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' );
 	wp_enqueue_script( 'bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js');
-
-
 });
 
 //Crear entradas al instalar
